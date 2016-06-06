@@ -1,0 +1,21 @@
+body
+	font-family  arial
+	font-size  16px
+
+
+/*Empezamos con los componentes */
+/* En el Stylys compilamos con stylus app.styl -c -w */
+.Card
+	width 200px
+	background  #c2ac37
+	border  5px solid gray
+	border-radius  .5em 
+/*concatenamos con & la clase padre que es Card */
+	&-description
+		background white
+		padding  .5em
+		font-size  12px
+	&-image
+		width 100% 
+
+
