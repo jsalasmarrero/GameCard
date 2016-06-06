@@ -3,14 +3,31 @@
 .Card
 	width 200px
 	background  #c2ac37
-	border  5px solid gray
-	border-radius  .5em 
+	border-radius .5em 
+	padding .5em
+	box-shadow 0 0 10px rgba(black,.5)
+
 /*concatenamos con & la clase padre que es Card */
-	&-description
+
+	.Card-description
 		background white
-		padding  .5em
+		text-shadow 1px 1px gray
+		padding .5em
 		font-size  12px
-	&-image
-		width 100% 
-
-
+		border-radius 5px
+		margin-bottom .5em
+		text-align center
+		background-color black
+		color white
+	.Card-image
+		width 100%
+		border-radius 5px
+		border 1px solid black
+	.Card-name
+		text-align center
+		margin 0
+		color white
+		font-family Roboto
+		text-shadow 2px 2px gray
+	.Card-attack
+		text-align center

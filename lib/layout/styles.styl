@@ -1,0 +1,37 @@
+.Layout
+	display flex
+	padding .5em
+	margin .5em
+	test(black)
+	flex-direction column
+	min-height 100vh
+	justify-content space-between
+	background-image url('../images/background.jpg')
+	background-size cover
+	> section
+		margin .5em
+	&-main
+		display flex
+		justify-content space-between
+	&-status
+		test(black)
+		width 200px
+	&-battle
+		background-image url('../images/pattern.jpg')
+		test(black)
+		border 1px black
+		flex 1
+		margin 0 .5em
+	&-phases
+		font-size 20px
+		width 200px
+		position relative
+	&-antagonist
+		test(red)
+		display flex
+		flex space-between
+	&-player
+		test(blue)
+		display flex
+		flex space-between
+		
